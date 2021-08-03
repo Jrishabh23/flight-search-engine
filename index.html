@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="icon" type="image/png" href="./assests/img/airplane.png ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+    <script defer src="./assests/js/script.js"></script>
+    <title>Flight</title>
+</head>
+
+<body>
+    <header class="all-center">
+        <nav>
+            <h1>Flight Search Engine</h1>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="left-nav">
+                <div class="tab-container all-center .p-t-8">
+                    <button class="btn tab-button tab-active" value="one">One Way</button>
+                    <button class="btn tab-button" value="return">Return</button>
+                </div>
+                <div class="flight-data">
+                    <form class="search-form" method="POST">
+                        <div class="form-data">
+                            <div class="input-field">
+                                <input type="text" name="origin" class="origin" placeholder="Enter Origin City">
+                                <p class="origin-error error"></p>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" name="destination" class="destination"
+                                    placeholder="Enter destination City">
+                                <p class="destination-error error"></p>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" placeholder="Enter Departure Date" onfocus="(this.type='date')"
+                                    onfocusout="(this.type='text')" name="departure" placeholder="Departure Date"
+                                    class="departure date" id="journey-date" min='2021-06-28' onkeydown="return false">
+                                <p class="departure-error error"></p>
+                            </div>
+                            <div class="input-field return">
+                                <input type="text" placeholder="Enter Return Date" onfocus="(this.type='date')"
+                                    onfocusout="(this.type='text')" name="return" placeholder="Return Date"
+                                    class="return date" id="return-date" onkeydown="return false"
+                                    placeholder="Return Date" style="display: none;">
+                                <p class="return-error error"></p>
+                            </div>
+                            <div class="input-field">
+                                <input type="number" name="passenger" class="passenger" placeholder="Passenger" min="1"
+                                    max="8">
+                            </div>
+                        </div>
+                        <div class="all-center">
+                            <button type="button" class="btn search-button">Search</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="pries">
+                    <h3 class="m-7"> Refine Flight Search</h3>
+                    <div class="pries-select">
+                        <p class="text-left min-range"></p>
+                        <p class="max-range"></p>
+                        <input type="range" class="range" min="1" max="10000" value="5000" style="width: 70%;">
+                    </div>
+                </div>
+            </div>
+            <div class="flight-card">
+                <div class="city-name">
+                    <h3 class="text-center p-t-25">Please Select Details<h3>
+                </div>
+                <div class="flight-details">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

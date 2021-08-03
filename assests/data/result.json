@@ -1,0 +1,496 @@
+{
+    "flights": [
+        {
+            "id": "1",
+            "flightNo": "AL-201",
+            "origin": "kolkata",
+            "destination": "mumbai",
+            "time": {
+                "depart": "2021-07-03 18:00:00",
+                "arrive": "2021-07-03 10:30:00"
+            },
+            "date": "2021-07-03 01:02:03",
+            "amount": "2300.00"
+        },
+        {
+            "id": "2",
+            "flightNo": "AL-202",
+            "origin": "kolkata",
+            "destination": "mumbai",
+            "time": {
+                "depart": "2021-07-03 08:00:00",
+                "arrive": "2021-07-03 10:30:00"
+            },
+            "date": "2021-07-03 01:02:03",
+            "amount": "990.00"
+        },
+        {
+            "id": "3",
+            "flightNo": "AL-203",
+            "origin": "kolkata",
+            "destination": "mumbai",
+            "time": {
+                "depart": "2021-07-03 08:00:00",
+                "arrive": "2021-07-03 10:30:00"
+            },
+            "date": "2021-07-03 01:02:03",
+            "amount": "990.00"
+        },
+        {
+            "id": "4",
+            "flightNo": "AL-204",
+            "origin": "mumbai",
+            "destination": "bangalore",
+            "time": {
+                "depart": "2021-07-03 08:00:00",
+                "arrive": "2021-07-03 10:30:00"
+            },
+            "date": "2021-07-03 01:02:03",
+            "amount": "850.00"
+        },
+        {
+            "id": "5",
+            "flightNo": "AL-205",
+            "origin": "bangalore",
+            "destination": "mumbai",
+            "time": {
+                "depart": "2021-07-03 08:00:00",
+                "arrive": "2021-07-03 10:30:00"
+            },
+            "date": "2021-07-03 01:02:03",
+            "amount": "990.00"
+        },
+        {
+            "id": "6",
+            "flightNo": "AL-206",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-03 08:00:00",
+                "arrive": "2021-07-03 10:30:00"
+            },
+            "date": "2021-07-03 01:02:03",
+            "amount": "1000.00"
+        },
+        {
+            "id": "7",
+            "flightNo": "AL-207",
+            "origin": "delhi",
+            "destination": "mumbai",
+            "time": {
+                "depart": "2021-07-03 08:00:00",
+                "arrive": "2021-07-03 10:30:00"
+            },
+            "date": "2021-07-03 01:02:03",
+            "amount": "1000.00"
+        },
+        {
+            "id": "8",
+            "flightNo": "AL-208",
+            "origin": "mumbai",
+            "destination": "delhi",
+            "time": {
+                "depart": "2021-07-03 08:00:00",
+                "arrive": "2021-07-03 10:30:00"
+            },
+            "date": "2021-07-03 01:02:03",
+            "amount": "1000.00"
+        },
+        {
+            "id": "9",
+            "flightNo": "IN-309",
+            "origin": "delhi",
+            "destination": "bangalore",
+            "time": {
+                "depart": "2021-07-03 08:00:00",
+                "arrive": "2021-07-03 10:30:00"
+            },
+            "date": "2021-07-03 01:02:03",
+            "amount": "1600.00"
+        },
+        {
+            "id": "10",
+            "flightNo": "IN-310",
+            "origin": "bangalore",
+            "destination": "delhi",
+            "time": {
+                "depart": "2021-07-03 08:00:00",
+                "arrive": "2021-07-03 10:30:00"
+            },
+            "date": "2021-07-03 01:02:03",
+            "amount": "1600.00"
+        },
+        {
+            "id": "11",
+            "flightNo": "IN-411",
+            "origin": "bangalore",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-03 08:00:00",
+                "arrive": "2021-07-03 10:30:00"
+            },
+            "date": "2021-07-03 01:02:03",
+            "amount": "1950.00"
+        },
+        {
+            "id": "12",
+            "flightNo": "IN-412",
+            "origin": "bangalore",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-04 08:00:00",
+                "arrive": "2021-07-04 10:30:00"
+            },
+            "date": "2021-07-04 01:02:03",
+            "amount": "1600.00"
+        },
+        {
+            "id": "13",
+            "flightNo": "IN-413",
+            "origin": "mumbai",
+            "destination": "bangalore",
+            "time": {
+                "depart": "2021-07-04 08:00:00",
+                "arrive": "2021-07-04 10:30:00"
+            },
+            "date": "2021-07-04 01:02:03",
+            "amount": "1300.00"
+        },
+        {
+            "id": "14",
+            "flightNo": "IN-614",
+            "origin": "bangalore",
+            "destination": "mumbai",
+            "time": {
+                "depart": "2021-07-04 08:00:00",
+                "arrive": "2021-07-04 10:30:00"
+            },
+            "date": "2021-07-04 01:02:03",
+            "amount": "1599.00"
+        },
+        {
+            "id": "15",
+            "flightNo": "AL-215",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-04 08:00:00",
+                "arrive": "2021-07-04 10:30:00"
+            },
+            "date": "2021-07-04 01:02:03",
+            "amount": "2500.00"
+        },
+        {
+            "id": "16",
+            "flightNo": "AL-216",
+            "origin": "mumbai",
+            "destination": "amravati",
+            "time": {
+                "depart": "2021-07-04 08:00:00",
+                "arrive": "2021-07-04 10:30:00"
+            },
+            "date": "2021-07-04 01:02:03",
+            "amount": "1500.50"
+        },
+        {
+            "id": "17",
+            "flightNo": "AL-217",
+            "origin": "delhi",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-05 08:00:00",
+                "arrive": "2021-07-05 10:30:00"
+            },
+            "date": "2021-07-05 01:02:03",
+            "amount": "6000.00"
+        },
+        {
+            "id": "18",
+            "flightNo": "AL-218",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-05 08:00:00",
+                "arrive": "2021-07-05 10:30:00"
+            },
+            "date": "2021-07-05 01:02:03",
+            "amount": "5000.00"
+        },
+        {
+            "id": "19",
+            "flightNo": "AL-219",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-05 08:00:00",
+                "arrive": "2021-07-05 10:30:00"
+            },
+            "date": "2021-07-05 01:02:03",
+            "amount": "5300.00"
+        },
+        {
+            "id": "20",
+            "flightNo": "AL-220",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-05 08:00:00",
+                "arrive": "2021-07-05 10:30:00"
+            },
+            "date": "2021-07-05 01:02:03",
+            "amount": "5185.75"
+        },
+        {
+            "id": "21",
+            "flightNo": "AL-221",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-05 08:00:00",
+                "arrive": "2021-07-05 10:30:00"
+            },
+            "date": "2021-07-05 01:02:03",
+            "amount": "4545.00"
+        },
+        {
+            "id": "22",
+            "flightNo": "AL-222",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-06 08:00:00",
+                "arrive": "2021-07-06 10:30:00"
+            },
+            "date": "2021-07-06 01:02:03",
+            "amount": "6545.00"
+        },
+        {
+            "id": "23",
+            "flightNo": "AL-223",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-06 08:00:00",
+                "arrive": "2021-07-06 10:30:00"
+            },
+            "date": "2021-07-06 01:02:03",
+            "amount": "3400.00"
+        },
+        {
+            "id": "24",
+            "flightNo": "AL-224",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-06 08:00:00",
+                "arrive": "2021-07-06 10:30:00"
+            },
+            "date": "2021-07-06 01:02:03",
+            "amount": "4300.00"
+        },
+        {
+            "id": "25",
+            "flightNo": "AL-225",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-06 08:00:00",
+                "arrive": "2021-07-06 10:30:00"
+            },
+            "date": "2021-07-06 01:02:03",
+            "amount": "8000.00"
+        },
+        {
+            "id": "26",
+            "flightNo": "AL-226",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-06 08:00:00",
+                "arrive": "2021-07-06 10:30:00"
+            },
+            "date": "2021-07-06 01:02:03",
+            "amount": "5488.00"
+        },
+        {
+            "id": "27",
+            "flightNo": "AL-227",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-07 08:00:00",
+                "arrive": "2021-07-07 10:30:00"
+            },
+            "date": "2021-07-07 01:02:03",
+            "amount": "10000.00"
+        },
+        {
+            "id": "28",
+            "flightNo": "AL-228",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-07 08:00:00",
+                "arrive": "2021-07-07 10:30:00"
+            },
+            "date": "2021-07-07 01:02:03",
+            "amount": "9888.00"
+        },
+        {
+            "id": "29",
+            "flightNo": "AL-229",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-07 08:00:00",
+                "arrive": "2021-07-07 10:30:00"
+            },
+            "date": "2021-07-07 01:02:03",
+            "amount": "7500.00"
+        },
+        {
+            "id": "30",
+            "flightNo": "AL-230",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-07 08:00:00",
+                "arrive": "2021-07-07 10:30:00"
+            },
+            "date": "2021-07-07 01:02:03",
+            "amount": "8500.00"
+        },
+        {
+            "id": "1",
+            "flightNo": "AL-203",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-07 08:00:00",
+                "arrive": "2021-07-07 10:30:00"
+            },
+            "date": "2021-07-07 01:02:03",
+            "amount": "9500.00"
+        },
+        {
+            "id": "1",
+            "flightNo": "AL-203",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-07 08:00:00",
+                "arrive": "2021-07-07 10:30:00"
+            },
+            "date": "2021-07-07 01:02:03",
+            "amount": "6000.00"
+        },
+        {
+            "id": "1",
+            "flightNo": "AL-203",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-07 08:00:00",
+                "arrive": "2021-07-07 10:30:00"
+            },
+            "date": "2021-07-07 01:02:03",
+            "amount": "8500.00"
+        },
+        {
+            "id": "1",
+            "flightNo": "AL-203",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-08 08:00:00",
+                "arrive": "2021-07-08 10:30:00"
+            },
+            "date": "2021-07-08 01:02:03",
+            "amount": "8499.00"
+        },
+        {
+            "id": "1",
+            "flightNo": "AL-203",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-08 08:00:00",
+                "arrive": "2021-07-08 10:30:00"
+            },
+            "date": "2021-07-08 01:02:03",
+            "amount": "3400.00"
+        },
+        {
+            "id": "1",
+            "flightNo": "AL-203",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-08 08:00:00",
+                "arrive": "2021-07-08 10:30:00"
+            },
+            "date": "2021-07-08 01:02:03",
+            "amount": "5900.00"
+        },
+        {
+            "id": "1",
+            "flightNo": "AL-203",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-08 08:00:00",
+                "arrive": "2021-07-08 10:30:00"
+            },
+            "date": "2021-07-08 01:02:03",
+            "amount": "8700.00"
+        },
+        {
+            "id": "1",
+            "flightNo": "AL-203",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-08 08:00:00",
+                "arrive": "2021-07-08 10:30:00"
+            },
+            "date": "2021-07-08 01:02:03",
+            "amount": "9700.00"
+        },
+        {
+            "id": "1",
+            "flightNo": "AL-203",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-08 08:00:00",
+                "arrive": "2021-07-08 10:30:00"
+            },
+            "date": "2021-07-08 01:02:03",
+            "amount": "6800.00"
+        },
+        {
+            "id": "1",
+            "flightNo": "AL-203",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-08 08:00:00",
+                "arrive": "2021-07-08 10:30:00"
+            },
+            "date": "2021-07-08 01:02:03",
+            "amount": "9999.00"
+        },
+        {
+            "id": "1",
+            "flightNo": "AL-203",
+            "origin": "mumbai",
+            "destination": "kolkata",
+            "time": {
+                "depart": "2021-07-09 08:00:00",
+                "arrive": "2021-07-09 10:30:00"
+            },
+            "date": "2021-07-09 01:02:03",
+            "amount": "6666.00"
+        }
+    ]
+}

@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    border-radius: 0.5rem;
+    color: black;
+    background: rgb(165, 37, 165);
+    border: none;
+    padding: 7px 20px;
+    width: 120px;
+    margin: 5px;
+}
+.p-t-8{
+    padding-top: 8px;
+}
+.p-t-25{
+    padding-top: 25px;
+}
+.m-7{
+    margin: 7px;
+}
+.m-t-25 {
+    margin-top: 25px;
+}
+.f-30 {
+    font-size: 30px;
+}
+.m-25{
+    margin: 25px;
+}
+.text-left{
+    float: left;
+}
+.text-right{
+    float: right;
+}
+.text-center{
+    text-align: center;
+}
+header,
+footer {
+    background: #fff;
+    height: 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f3f3f3;
+}
+
+.left-nav {
+    width: 23vw;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.flight-data,
+.pries {
+    border: 1px solid;
+    margin: 10px 25px 25px 25px;
+}
+
+input {
+    margin: 12px;
+    height: 20px;
+    width: 200px;
+    padding: 4px;
+}
+
+.flight-card {
+    width: 75vw;
+}
+
+.pries {
+    padding: 3px;
+}
+
+.pries-select {
+    width: 100%;
+}
+
+.range {
+    width: 65% !important;
+    margin: 4%;
+}
+
+.min-range {
+    width: 5%;
+    margin: 4px;
+}
+
+.max-range {
+    float: right;
+}
+
+.city-name {
+    height: 10vh;    
+}
+
+.flight-details {
+    border: 1px solid;
+}
+.error {
+    color:red;
+}
+form .error{
+    margin-left: 12px;
+}
+.tab-active {
+    background-color: blue !important;
+}
+.flight{
+    border: 1px solid;
+    padding: 5px 15px 15px 15px;
+    margin: 10px;    
+    height: 200px;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.flight h2{
+    margin: 20px;
+} 
+.flight h3 {
+    margin: 10px 10px 10px 0px;
+}
+.book-button{
+    padding-top: 80px;
+}
+.person {
+    font-weight: 100;
+    font-size: 0.6rem;
+}
+
+@media screen and (max-width: 1350px) {
+        input {
+            width: 140px;
+        }
+}
+
+@media screen and (max-width: 970px) {
+    .container {
+        flex-direction: column;
+    }
+    .left-nav {
+    width: 100%;
+    }
+    .flight-card{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    footer{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .input-field{
+        text-align: center;
+    }
+    input{
+        width: 200px;
+    }
+    .flight{
+        height: 220px;
+    }
+    .flight h2 {
+        margin-left: 0px;
+    }
+    .f-30 {
+        font-size: 15px;
+    }
+    .city-name{
+        height: 81px;
+        margin: 10px;
+        padding-top: 20px;
+    }
+    footer{
+        height: 50px;
+    }
+}
